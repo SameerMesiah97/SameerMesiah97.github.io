@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Cryptness - Buy and Sell Cryptos, Set up a Crypto wallet and more </title>
+  <link rel="icon" href="cryptnessfavicon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Bootstrap library -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/3d360caf5d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-light navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <img class="navbar-brand" src="Cryptness logo.png" alt="" width="125px" height="50px">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Buy/Sell</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Markets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Individual</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Corporate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resources</a>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-nav">
+      <div class="btn-group" role="group" aria-label="acc-btns">
+        <button type="button btn1" class="btn btn-light" style="border-radius: 10%;">Login</button>
+        <button type="button btn2" class="btn btn-primary" style="border-radius: 10%;">Register</button>
+      </div>
+  </nav>
+
+  <!-- Promotions -->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-8" style="padding-left:15%;padding-top:5%;">
+            <h1 class="headings">Download the official application<br><small class="text-muted">and receive $10 to purchase any cryptocurrency you want.</small></h1>
+            <div class="btn-group" role="group" aria-label="acc-btns">
+              <button type="button" class="btn btn-dark btn-md download-button" style="margin-left:5%">
+                <i class="fab fa-apple fa-1x"></i> Download
+              </button>
+              <button type="button" class="btn btn-info btn-md download-button" style="margin-left:5%">
+                <i class="fab fa-google-play fa-1x"></i> Download
+              </button>
+            </div>
+          </div>
+          <div class="col" style="padding-top:2.5%;">
+            <img class="mobile" src="AppDemo.png" alt="App mobile">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item cry-wallet">
+        <div class="row">
+          <div class="col-7" style="padding-left:10%;">
+            <h1 class="headings ">Set up your Cryptness Wallet™ now!<br><small class="text-muted align-middle" style="margin-left:50px">Invest. Pay. Store.</small></h1>
+          </div>
+          <div class="col-5">
+            <img class="BTCWallet" src="BTCwallet.png" alt="CryWallet">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item cry-wallet">
+        <div class="row">
+          <div class="col-7" style="padding-left:10%;">
+            <h1 class="headings">Introducing the CRYPAY™ credit card<br>
+              <small class="text-muted align-middle">
+                <ul style="list-style-type:none; padding-left:50px;padding-top:10px;">
+                  <li>No annual fees</li>
+                  <li>Up to 7% back on each purchase</li>
+                  <li>Discounts available for dozens of retailers</li>
+                </ul>
+              </small>
+            </h1>
+          </div>
+          <div class="col-5">
+            <img class="CryPay" src="CryPay.png" alt="CryPay">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features -->
+  <div class="features">
+    <h1 class="headings"> The Cryptocurrency Exchange <br><small class="text-muted" style="padding-left:5%;">that is</small> </h1>
+    <div class="row">
+      <div class="col col-lg-4 col-md-6 col-sm-6 col-12">
+        <h2 class="subheadings">Secure</h2>
+        <i class="fas fa-lock fa-6x icons"></i>
+        <p class="body-text">All cryptocurrency transactions are secured with our propietary system. </p>
+      </div>
+      <div class="col col-lg-4 col-md-6 col-sm-6 col-12">
+        <h2 class="subheadings">Cheap</h2>
+        <i class="fas fa-dollar-sign fa-6x icons"></i>
+        <p class="body-text">We offer minimal transaction fees and low subscription costs.</p>
+      </div>
+      <div class="col col-lg-4 col-md-12 col-sm-12 col-12">
+        <h2 class="subheadings">Comprehensive</h2>
+        <i class="fas fa-tasks fa-6x icons"></i>
+        <p class="body-text">A broad range of crpyto-currencies are available for you to buy and sell. </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to Action -->
+  <div class="call-to-action">
+
+    <h1 class="headings" style="margin-top:30px;"> <small class="text-muted">Whether you're a newbie or an experienced professional</small><br>we have you covered </h1>
+    <br>
+    <button type="button" class="btn btn-info" style="margin-bottom:30px;">Get started</button>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="row">
+      <div class="col-lg-2 col-md-12" style="text-align:center;">
+        <img src="Cryptness logo.png" alt="">
+        <p style="color:grey;">Cryptness - Buy and Sell Cryptos, Set up a Crypto wallet and more</p>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="padding-bottom:10px;">
+        <p style="font-weight:bold; color:grey; margin-bottom:0px;">Products</p>
+        <ul style="list-style-type:none; text-align:left; margin: 0; padding: 0;">
+          <li><a href="#" class="link-secondary" style="color:grey;">Cryptness™</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Cryptness Mobile™</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Cryptness FlexTrade™</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">CRYPAY™</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Cryptness Wallet™</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="padding-bottom:10px;">
+        <p style="font-weight:bold; color:grey; margin-bottom:0px;">Affiliates</p>
+        <ul style="list-style-type:none; text-align:left; margin: 0; padding: 0;">
+          <li><a href="#" class="link-secondary" style="color:grey;">Bitstash™</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Crywire™</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Hashview™</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Cryptosis™</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Partner program</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="padding-bottom:10px;">
+        <p style="font-weight:bold; color:grey; margin-bottom:0px;">Company</p>
+        <ul style="list-style-type:none; text-align:left; margin: 0; padding: 0;">
+          <li><a href="#" class="link-secondary" style="color:grey;">Who are we?</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Blog</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Newsroom</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Careers</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Help</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="padding-bottom:10px;">
+        <p style="font-weight:bold; color:grey; margin-bottom:0px;">Resources</p>
+        <ul style="list-style-type:none; text-align:left; margin: 0; padding: 0;">
+          <li><a href="#" class="link-secondary" style="color:grey;">Prices</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Refer a friend</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Marketplace</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Fees</a></li>
+          <li><a href="#" class="link-secondary" style="color:grey;">Company policy</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6" style="padding-bottom:5px;">
+        <p style="font-weight:bold; color:grey; margin-bottom:15px;">Download the App</p>
+        <ul style="list-style-type:none; margin: 0; padding: 0;">
+          <li><a href="#"><img class="footer-download-button" src="AppStore.svg" alt="DownloadApple.png"></a></li>
+          <li><a href="#"><img class="footer-download-button" src="PlayStore.svg" alt="DownloadApple.png"></a></li>
+          <li><a href="#"><img class="footer-download-button" src="GalaxyStore.svg" alt="DownloadApple.png"></a></li>
+          <li>
+            <div class="btn-group" role="group" aria-label="acc-btns" style="padding-top:10px;">
+              <a href="https://www.instagram.com/" style="color:#1a1a27;padding-right:12px"><i class="fab fa-instagram fa-2x"></i></a>
+              <a href="https://www.facebook.com/" style="color:#1a1a27;padding-right:12px"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="https://www.linkedin.com/" style="color:#1a1a27;padding-right:12px"><i class="fab fa-linkedin fa-2x"></i></a>
+              <a href="https://twitter.com/" style="color:#1a1a27;padding-right:12px"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+          </li>
+      </div>
+    </div>
+    <div class="align-bottom" style="color:grey; font-size:0.8em; font-weight:bold;">
+      <p>© Copyright 2021 Cryptness™</p>
+
+    </div>
+
+</html>
